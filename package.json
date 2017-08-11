@@ -1,7 +1,7 @@
 {
   "name": "get-all-styles",
   "version": "1.0.0",
-  "description": "",
+  "description": "Get's all css imported in <link> tags, and inlined inside <style> tags, in a target Node.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -16,5 +16,16 @@
   "dependencies": {
     "cpjax": "^1.1.2",
     "righto": "^3.0.4"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KoryNunn/get-all-styles.git"
+  },
+  "bugs": {
+    "url": "https://github.com/KoryNunn/get-all-styles/issues"
+  },
+  "homepage": "https://github.com/KoryNunn/get-all-styles#readme"
 }
