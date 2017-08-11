@@ -1,0 +1,20 @@
+{
+  "name": "get-all-styles",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "watchify -d ./test/index.js -o ./test/index.browser.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tape": "^4.8.0",
+    "watchify": "^3.9.0"
+  },
+  "dependencies": {
+    "cpjax": "^1.1.2",
+    "righto": "^3.0.4"
+  }
+}
